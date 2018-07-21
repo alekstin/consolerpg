@@ -1,16 +1,16 @@
 Klasy:
 
-Character: HP, DealDamage(), TakeDamage()
+Character: HP,Name, DealDamage(Character), TakeDamage(Character), OnDeath()
 
 Player(Character) : Exp, Weapon
 Enemy(Character) : Weapon
 
-Atziri(Enemy) : 
-Elfer(Enemy) : 
-Shaper(Enemy) :
+Atziri(Enemy) 
+Elfer(Enemy) 
+Shaper(Enemy)
 
-Weapon
-Short Sword
-Long Sword
+Weapon: Damage
+Short Sword(Weapon)
+Long Sword(Weappon)
 
 GameManager
