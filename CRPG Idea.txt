@@ -1,0 +1,18 @@
+Klasy:
+
+Character: HP,Name, DealDamage(Character), TakeDamage(Character), OnDeath()
+
+Player(Character) : Exp, Weapon, UpgradeGems, GainExp(int)
+Enemy(Character) : Weapon, ExpOnDeath
+
+Atiri(Enemy) : Weapon
+Elfer(Enemy) : Weapon
+Shafer(Enemy) : Weapon
+
+Weapon: Damage
+Atiri Sword(Weapon) // Low dmg for atiri
+Elfer Sword(Weapon) // Mid damage for elfer
+Shafer Sword(Weapon) // High damage for shafer
+Long Sword(Weappon) UpgradeLevel() // For player, upgradeable
+
+GameManager: Enemies - list, Player
