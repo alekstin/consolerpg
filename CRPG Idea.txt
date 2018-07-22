@@ -15,7 +15,7 @@ Elfer Sword(Weapon) // Mid damage for elfer
 Shafer Sword(Weapon) // High damage for shafer
 Long Sword(Weappon) UpgradeLevel() // For player, upgradeable
 
-GameManager: Enemies - list, Player, SimulateGame()
+GameManager: Enemies - list, Player, SimulateGame(), DrawHealth()
 
 In SimulateGame:
 1. Attack Enemy
