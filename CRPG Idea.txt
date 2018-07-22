@@ -30,3 +30,5 @@ Attack enemy - takes first enemy from list and starts fight simulation (simulati
 Upgrade sword - upgrades sword using ExileGems, Long Sword gains more attack
 
 Heal - buys health using ExileGems
+
+Summon random monster - create new random monster
