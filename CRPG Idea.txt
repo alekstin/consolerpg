@@ -1,8 +1,8 @@
-Klasy:
+Classes:
 
 Character: HP,Name, DealDamage(Character), TakeDamage(Character), OnDeath()
 
-Player(Character) : Exp, Weapon, UpgradeGems, GainExp(int)
+Player(Character) : Exp, Weapon, ExileGems, GainExp(int)
 Enemy(Character) : Weapon, ExpOnDeath
 
 Atiri(Enemy) : Weapon
@@ -15,4 +15,11 @@ Elfer Sword(Weapon) // Mid damage for elfer
 Shafer Sword(Weapon) // High damage for shafer
 Long Sword(Weappon) UpgradeLevel() // For player, upgradeable
 
-GameManager: Enemies - list, Player
+GameManager: Enemies - list, Player, SimulateGame()
+
+In SimulateGame:
+1. Attack Enemy
+2. Upgrade sword
+3. Heal
+
+Beside that, display HP bars for player and enemy (with its name) on the top of the console - use console clear every turn so it stays clear
