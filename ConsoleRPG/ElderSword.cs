@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace ConsoleRPG
 {
-    class ElderSword : Weapon
+    class ElderSword : EnemyWeapon
     {
-        public ElderSword() : base(3, 0)
-        {
-        }
+        public ElderSword() : base(3)
+        { }
     }
 }

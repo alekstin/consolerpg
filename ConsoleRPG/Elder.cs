@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace ConsoleRPG
 {
-    class ShaperSword : EnemyWeapon
+    class Elder : Enemy
     {
-        public ShaperSword() : base(5)
+        public Elder() : base("Elter", 20, 3)
         {
         }
     }

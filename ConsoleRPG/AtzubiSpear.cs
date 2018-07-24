@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace ConsoleRPG
 {
-    class AtzubiSpear : Weapon
+    class AtzubiSpear : EnemyWeapon
     {
-        public AtzubiSpear() : base(2, 0)
+        public AtzubiSpear() : base(2)
         {
         }
     }

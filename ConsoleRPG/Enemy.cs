@@ -6,14 +6,15 @@ using System.Threading.Tasks;
 
 namespace ConsoleRPG
 {
-    abstract class Character
+    class Enemy
     {
-        public int Exp { get; set; }
         public int HP { get; set; }
         public string Name { get; set; }
+        public int Dmg { get; set; }
 
-        public Character(string Name, int Exp, int HP)
+        public Enemy(string Name, int HP,int Dmg)
         {
         }
+
     }
 }

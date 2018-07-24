@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace ConsoleRPG
 {
-    class ShaperSword : EnemyWeapon
+    class Hero : Character
+    { 
+        public Hero() : base("Szarik", 1, 10)
     {
-        public ShaperSword() : base(5)
-        {
-        }
     }
+}
 }

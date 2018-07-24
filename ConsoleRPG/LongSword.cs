@@ -8,7 +8,7 @@ namespace ConsoleRPG
 {
     class LongSword : Weapon
     {
-        public LongSword(int number) : base(2, number)
+        public LongSword(int number) :base(2)
         {
             if (number == 1)
             {

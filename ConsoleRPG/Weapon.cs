@@ -9,11 +9,9 @@ namespace ConsoleRPG
     abstract class Weapon
     {
         public int WeaponDamage { get; set; }
-        public int Upgrade { get; set; }
-        public Weapon(int weaponDamage, int upgrade)
+        public Weapon(int weaponDamage)
         {
             WeaponDamage = weaponDamage;
-            Upgrade = upgrade;
         }
 
     }

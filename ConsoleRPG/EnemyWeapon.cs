@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace ConsoleRPG
 {
-    class ShaperSword : EnemyWeapon
+    abstract class EnemyWeapon
     {
-        public ShaperSword() : base(5)
+        public int WeaponDamage { get; set; }
+        public EnemyWeapon(int weaponDamage)
         {
+            WeaponDamage = weaponDamage;
         }
     }
 }
